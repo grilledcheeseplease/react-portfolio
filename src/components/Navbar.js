@@ -27,10 +27,15 @@ function Navbar({ setPage }) {
         <header className='header' style={styles.header}>
             <div className='navbar'>
                 <div className='links '>
-                    <a href="#about" onClick={() => setPage('about')} className='p-3 d-inline-flex flex-sm-fill text-sm-center nav-link active' style={styles.links}>About</a>
-                    <a href="#portfolio" onClick={() => setPage('portfolio')} className='p-3 d-inline-flex flex-sm-fill text-sm-center nav-link active' style={styles.links}>Portfolio</a>
-                    <a href="#contact" onClick={() => setPage('contact')} className='p-3 d-inline-flex flex-sm-fill text-sm-center nav-link active' style={styles.links}>Contact</a>
-                    <a href="#resume" onClick={() => setPage('resume')} className='p-3 d-inline-flex flex-sm-fill text-sm-center nav-link active' style={styles.links}>Resume</a>
+
+                    <a href="#about" onClick={() => setPage('about')} className='p-2 m-2 d-inline-flex flex-sm-fill text-sm-center nav-link active' style={styles.links}>About</a>
+
+                    <a href="#portfolio" onClick={() => setPage('portfolio')} className='p-2 m-2 d-inline-flex flex-sm-fill text-sm-center nav-link active' style={styles.links}>Portfolio</a>
+
+                    <a href="#contact" onClick={() => setPage('contact')} className='p-2 m-2 d-inline-flex flex-sm-fill text-sm-center nav-link active' style={styles.links}>Contact</a>
+                    
+                    <a href="#resume" onClick={() => setPage('resume')} className='p-2 m-2 d-inline-flex flex-sm-fill text-sm-center nav-link active' style={styles.links}>Resume</a>
+                    
                 </div>
             </div>
         </header>

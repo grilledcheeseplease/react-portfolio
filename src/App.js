@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import About from "./pages/About";
 import Porfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
@@ -20,6 +21,7 @@ function App() {
         <>
         <Navbar setPage={setPage}/>
         <CurrentPage />
+        <Footer />
         </>
     );
 

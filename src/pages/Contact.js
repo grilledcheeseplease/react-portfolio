@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Form from "../components/Form";
 
 function Contact() {
   return (
-    <h1>Contact</h1>
+    <div>
+      <div>
+        <h1>Contact</h1>
+      </div>
+      <Form />
+    </div>
   )
 }
 
