@@ -4,11 +4,10 @@ import "../styles/Navbar.css";
 
 
 function Navbar() {
-    const [expandNavbar, setExpandNavbar] = useState(false);
     return (
         <div className='navbar'>
             <div className='toggleButton'>
-                <button onClick={() => {setExpandNavbar((prev) => !prev);}} > 
+                <button> 
                 </button>
             </div>
             <div className='links'>
