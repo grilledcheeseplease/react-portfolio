@@ -1,14 +1,12 @@
 import React from "react";
 
 const styles = {
-    picDiv: {
-
-    },
     facePic: {
         height: '350px',
         borderRadius: '12px',
     },
     about: {
+        marginTop: '80px',
         textAlign: 'center',
         color: 'cornsilk',
         backgroundColor: 'rgba(0, 0, 0, 0.5)',

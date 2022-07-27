@@ -6,6 +6,11 @@ import Porfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
+const styles = {
+  container: {
+    paddingBottom: '8rem',
+  }
+}
 
 function App() {
   const [page, setPage] = useState('about');
@@ -20,7 +25,9 @@ function App() {
     return (
         <>
         <Navbar setPage={setPage}/>
+        <div className='container' style={styles.container}>
         <CurrentPage />
+        </div>
         <Footer />
         </>
     );

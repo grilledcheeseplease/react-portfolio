@@ -8,7 +8,7 @@ const styles = {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         marginBottom: '20px',
-        height: 115,
+        height: 170,
         display: 'flex',
         alignItems: 'center',
     },
@@ -24,7 +24,7 @@ const styles = {
 
 function Navbar({ setPage }) {
     return (
-        <header className='header' style={styles.header}>
+        <header className='header container-fluid' style={styles.header}>
             <div className='navbar'>
                 <div className='links '>
 
