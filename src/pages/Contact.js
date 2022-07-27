@@ -3,9 +3,9 @@ import Form from "../components/Form";
 
 function Contact() {
   return (
-    <div>
+    <div className='container-fluid'>
       <div>
-        <h1>Contact</h1>
+        <h1 className='d-flex justify-content-center p-2'>Contact</h1>
       </div>
       <Form />
     </div>
