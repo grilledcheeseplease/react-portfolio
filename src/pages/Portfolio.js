@@ -109,15 +109,15 @@ const Portfolio = () => {
 
           <div className='card'>
 
-            <img className="card-img-top" src={require('../images/weatherdashboard.png')} alt="Weather Dashboard"/>
+            <img className="card-img-top" src={require('../images/flowershop.png')} alt="Bouquet Now"/>
 
             <div className='card-body d-flex-column'>
 
-              <h5 className='card-title d-flex justify-content-center' style={styles.h5}>Weather Dashboard</h5>
+              <h5 className='card-title d-flex justify-content-center' style={styles.h5}>Bouquet Now</h5>
 
-              <a href="https://grilledcheeseplease.github.io/Weather-Dashboard/" className='weatherSite link d-flex justify-content-center' style={styles.link}>Live Site</a>
+              <a href="https://bouquetnow.herokuapp.com/" className='weatherSite link d-flex justify-content-center' style={styles.link}>Live Site</a>
 
-              <a href="https://github.com/grilledcheeseplease/Weather-Dashboard" className='weatherRepo link d-flex justify-content-center' style={styles.link}>GitHub Repository</a>
+              <a href="https://github.com/ntraugh/flower-shop" className='weatherRepo link d-flex justify-content-center' style={styles.link}>GitHub Repository</a>
 
             </div>
           </div>
